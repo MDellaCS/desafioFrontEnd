@@ -7,7 +7,7 @@ textarea {
     width: 100%;
     font-family: var(--fontText);
     color: var(--secondary);
-    font-size: 1rem;
+    font-size: .9rem;
     resize: none; 
 }
 
