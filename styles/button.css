@@ -1,0 +1,16 @@
+header .btn {
+    cursor: pointer;
+    border: solid .2rem #ffffff;
+    border-radius: 10rem;
+    padding: .4rem 1.2rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: .4rem .6rem;
+    border-radius: .3rem;
+    background-color: var(--primary);
+    width: fit-content;
+    cursor: pointer;
+    border: none;
+}

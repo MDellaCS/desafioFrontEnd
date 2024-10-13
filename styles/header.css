@@ -1,0 +1,35 @@
+header {
+    background: var(--secondary);
+    padding: 1rem 4rem;
+    max-height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#btnHamburguer {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#navHamburguer {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 60%;
+    background: var(--secondary);
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 1rem;
+    z-index: 10;
+    font-size: 1.3rem;
+}
+
+header .logo {
+    width: 8rem;
+}

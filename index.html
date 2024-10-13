@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- My styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <title>Imóvel Guide | Home</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <img src="images/imovelguideLogo.png" class="logo" alt="Imóvel Guide">
+        </div>
+
+        <div class="h2 navigation">
+            <a href="#">Condomínios</a>
+            <a href="#">Fórum</a>
+            <a href="#">Guia</a>
+            <a href="#">Artigos</a>
+            <a href="#">Ferramentas</a>
+        </div>
+
+        <div class="h2 actions">
+            <a href="#">Cotar Imóvel</a>
+            <a href="#">Planos</a>
+            <a href="#">Entrar</a>
+        </div>
+
+        <div class="h2 button">
+            <a href="#" class="btn">CADASTRE-SE</a>
+        </div>
+
+        <!-- Hamburguer Menu's button -->
+        <div id="btnHamburguer">
+            &#9776;
+        </div>
+
+        <!-- Hamburguer Menu for Tablets and Phones -->
+        <div class="h2" id="navHamburguer">
+            <a href="#">Condomínios</a>
+            <a href="#">Fórum</a>
+            <a href="#">Guia</a>
+            <a href="#">Artigos</a>
+            <a href="#">Ferramentas</a>
+            <a href="#">Cotar Imóvel</a>
+            <a href="#">Planos</a>
+            <a href="#">Entrar</a>
+            <a href="#" class="btn">CADASTRE-SE</a>
+        </div>
+
+    </header>
+
+    <div class="challenge-container">
+
+        <div num="1" id="challenge1">
+
+            <div class="person">
+
+                <div class="img-container">
+                    <div class="blurredImage"></div>
+                    <img src="./images/woman.jpg">
+                </div>
+
+                <div>
+                    <p class="h1">Nome Corretora</p>
+                    <p class="h3">3.000 pontos</p>
+                    <p phoneNumber="(99) 99999-9999" class="phone">ver telefone</p>
+                </div>
+
+            </div>
+
+            <div class="person">
+
+                <div class="img-container">
+                    <div class="blurredImage"></div>
+                    <img src="./images/man.jpg">
+                </div>
+
+                <div>
+                    <p class="h1">Nome Corretor</p>
+                    <p class="h3">1.260 pontos</p>
+                    <p phoneNumber="(88) 88888-8888" class="phone">ver telefone</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div num="2" id="challenge2">
+
+            <form id="frmMessage">
+
+                <p class="h0">Mande uma mensagem:</p>
+
+                <input type="text" id="txtCPF" maxlength="14" placeholder="Digite seu CPF" />
+                <input type="text" id="txtPhone" maxlength="15" placeholder="Digite seu telefone" />
+                <textarea id="txtSubject" rows="3" placeholder="Digite o assunto"></textarea>
+
+                <input type="submit" value="Enviar Mensagem" />
+
+            </form>
+
+        </div>
+
+        <div num="3" id="challenge3">
+
+            <form id="frmCalc">
+
+                <p class="h0">Regra de 3</p>
+
+                <div class="calculator-container">
+
+                    <input type="number" id="txtCalcNum1" placeholder="60">
+                    <input type="number" id="txtCalcNum2" placeholder="100">
+                    <br />
+                    <input type="number" id="txtCalcNum3" placeholder="30">
+                    <input type="number" id="txtCalcNum4" readonly>
+
+                </div>
+
+                <input type="submit" value="Calcular" />
+
+            </form>
+
+        </div>
+
+        <div num="4" id="challenge4">
+
+            <button id="btnOpenModal">ABRIR IMAGEM NO MODAL</button>
+
+            <div id="modalHouse" class="modal-container">
+
+                <div class="modal">
+
+                    <div class="modal-head">
+                        <span id="btnCloseModal" class="closeX">&times;</span>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="./images/house.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div num="5" id="challenge5">
+
+            <button id="btnDownload">Download</button>
+
+            <p class="h2">Imóvel Guide</p>
+
+        </div>
+
+        <div num="6" id="challenge6" class="zoomOut"></div>
+
+    </div>
+
+    <footer>
+
+        <div class="h2 about">
+            <a href="#">Termos</a>
+            <a href="#">Contatos</a>
+            <a href="#">Sobre</a>
+        </div>
+
+        <div class="h2 copyright">
+            &copy; Copyright 2022. Todos os direitos reservados.
+        </div>
+
+        <div>
+            <img src="images/imovelguideLogo.png" class="logo" alt="Imóvel Guide">
+        </div>
+
+    </footer>
+
+    <!-- html2canvas' script -->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+    <!-- My scripts -->
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>

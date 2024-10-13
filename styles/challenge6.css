@@ -1,0 +1,20 @@
+#challenge6 {
+    background-image: url("../images/house.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@keyframes zoomOut {
+    0% {
+        background-size: 230%;
+    }
+
+    100% {
+        background-size: 150%;
+    }
+}
+
+.zoomOut {
+    animation: zoomOut 9s ease-out forwards;
+}

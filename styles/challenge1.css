@@ -1,0 +1,48 @@
+#challenge1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#challenge1 .person {
+    padding: .25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.3rem;
+}
+
+#challenge1 .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--terciary);
+    border-radius: .2rem;
+    width: 135px;
+    height: 135px;
+
+    margin: 0 .5rem 0 0;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#challenge1 .blurredImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 110%;
+    background-position: center;
+    filter: blur(1px);
+    z-index: 1;
+}
+
+#challenge1 .img-container>img {
+    z-index: 2;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,86 @@
+/* For Desktop */
+@media (min-width: 1200px) {
+
+    #btnHamburguer,
+    #navHamburguer {
+        display: none;
+    }
+
+}
+
+/* For Tablets */
+@media (max-width: 1200px) {
+
+    html {
+        font-size: 1.15rem;
+    }
+
+    header .navigation,
+    header .actions,
+    header .button,
+    footer .about {
+        display: none;
+    }
+
+    #btnHamburguer {
+        display: block;
+    }
+
+    .challenge-container {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .challenge-container>div {
+        width: 400px;
+        height: 400px;
+    }
+
+    #challenge1 .img-container {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+/* For Phones */
+@media (max-width: 800px) {
+
+    html {
+        font-size: 1.3rem;
+    }
+
+    header .navigation,
+    header .actions,
+    header .button,
+    footer .about {
+        display: none;
+    }
+
+    #btnHamburguer {
+        display: block;
+    }
+
+    .challenge-container {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .challenge-container>div {
+        width: 500px;
+        height: 500px;
+    }
+
+    #challenge1 .img-container {
+        width: 225px;
+        height: 225px;
+    }
+
+    .modal {
+        padding: .2rem;
+        margin: .1rem;
+    }
+
+    .modal-body>img {
+        width: 95%;
+    }
+
+}

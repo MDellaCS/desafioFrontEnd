@@ -1,0 +1,29 @@
+#challenge5 {
+    background-image: url("../images/house.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#challenge5 p {
+    padding: .4rem;
+    border-radius: .3rem;
+    background-color: var(--primary);
+    width: 80%;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#challenge5 button {
+    padding: .4rem;
+    border-radius: .3rem;
+    background-color: var(--primary);
+    cursor: pointer;
+    width: 60%;
+    position: absolute;
+    bottom: -12.5%;
+    right: 50%;
+    transform: translateX(50%);
+}
