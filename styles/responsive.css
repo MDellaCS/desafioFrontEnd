@@ -1,6 +1,10 @@
 /* For Desktop */
 @media (min-width: 1200px) {
 
+    html {
+        font-size: 1rem;
+    }
+
     #btnHamburguer,
     #navHamburguer {
         display: none;
