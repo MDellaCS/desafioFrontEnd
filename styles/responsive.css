@@ -8,7 +8,7 @@
 
 }
 
-/* For Tablets */
+/* For Tablet */
 @media (max-width: 1200px) {
 
     html {
@@ -42,7 +42,7 @@
 
 }
 
-/* For Phones */
+/* For Phone */
 @media (max-width: 800px) {
 
     html {
